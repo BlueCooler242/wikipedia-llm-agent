@@ -2,11 +2,11 @@
 
 This repository contains a minimal working example of an LLM Agent using the **LangGraph’s ReAct pattern** and a **Wikipedia search tool**. For this example, we use OpenRouter, which provides access to multiple models, including free models, behind a single API. This allows you to run the agent without adding a credit card.
 
-# Step 1: Create an OpenRouter account
+## Step 1: Create an OpenRouter account
 
 Go to the OpenRouter website and sign up with an email or GitHub account.
 
-# Step 2: Generate an API key
+## Step 2: Generate an API key
 
 Once logged in: <br/>
 
@@ -15,7 +15,7 @@ Once logged in: <br/>
 - Create a new key
 - Copy & save the key. You will only see it once!
   
-# Step 3: Add the key to your .env file
+## Step 3: Add the key to your .env file
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 
 
@@ -37,7 +37,7 @@ Free models may:
 
 For learning and experimentation, however, they are more than sufficient.
 
-## What This Agent Does
+# What This Agent Does
 
 - Accepts a question from the user
 - Uses an LLM to reason about the question
@@ -47,7 +47,7 @@ For learning and experimentation, however, they are more than sufficient.
 The agent follows the **ReAct pattern**:
 > Reason → Act (use tool if needed) → Observe → Answer
 
-## Environment Variables
+# Environment Variables
 
 This agent uses an API key provided via an environment file.
 
@@ -75,4 +75,5 @@ example.env
 - https://openrouter.ai/
 
 ```
+
 
