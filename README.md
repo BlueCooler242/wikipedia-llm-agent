@@ -59,7 +59,7 @@ example.env
 
 # Project Files
 
-├── wikipedia_llm_agent.py - The agent implementation <br/>
+├── wikipedia_agent.py - The agent implementation <br/>
 ├── example.env - Environment variable template <br/>
 ├── requirements.txt - Python dependencies <br/>
 └── README.md
@@ -74,7 +74,5 @@ example.env
 **Openrouter**
 - https://openrouter.ai/
 
-
-```python
-
 ```
+
